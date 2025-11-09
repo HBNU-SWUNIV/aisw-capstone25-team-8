@@ -34,7 +34,7 @@
 ## Conclusion
   <img width="549" height="456" alt="image" src="https://github.com/user-attachments/assets/116d57bb-9210-4051-bc22-e5963c2298b2" />
   
-  - ### 본 프로젝트는 기존 서버 기반 VTON 시스템의 개인정보 유출 문제와 높은 추론 시간 문제를 동시에 해결하기 위해, CatVTON 모델을 On-device 환경에 최적화한 비대면 의류 착용 시스템을 구현하였다.
+  - 본 프로젝트는 기존 서버 기반 VTON 시스템의 개인정보 유출 문제와 높은 추론 시간 문제를 동시에 해결하기 위해, CatVTON 모델을 On-device 환경에 최적화한 비대면 의류 착용 시스템을 구현하였다.
 Jetson Orin Nano에서는 FP32 → BFP16 변환 및 DPM++ 스케줄러 적용을 통해 추론 시간 단축(30초 → 11초)을 달성하였으며, 모바일 환경인 Galaxy S25(Adreno 830)에서도 Executorch를 활용해 추론이 가능함을 확인하였다. 본 시스템은 개인 이미지 암호화 및 On-device 추론 수행으로 개인정보 유출 위험을 최소화하고, 경량화된 Diffusion 기반 VTON 모델을 통해 고품질의 가상 착용 이미지를 빠르게 생성하며, Jetson 및 모바일 디바이스 환경에서도 실시간 응용이 가능한 수준으로 최적화했다.
   
 ## Project Outcome
