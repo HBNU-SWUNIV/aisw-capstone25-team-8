@@ -25,11 +25,9 @@
     
 ## Case Study
   - ### Description
-  Viton: An image-based virtual try-on network CVPR 2018
-  
-  CatVTON: Concatenation is all you need for Virtual Try-On with diffusion models ICLR 2025
-  
-  MobileDiffusion: Instant Text-to-Image Generation on Mobile Devices google 2023
+   - Viton: An image-based virtual try-on network CVPR 2018
+   - CatVTON: Concatenation is all you need for Virtual Try-On with diffusion models ICLR 2025
+   - MobileDiffusion: Instant Text-to-Image Generation on Mobile Devices google 2023
   
 ## Conclusion
   <img width="549" height="456" alt="image" src="https://github.com/user-attachments/assets/116d57bb-9210-4051-bc22-e5963c2298b2" />
