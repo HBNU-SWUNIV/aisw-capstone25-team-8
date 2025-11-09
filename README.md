@@ -13,9 +13,13 @@
   - 최근 Diffusion 모델 기반의 VITON 시스템들이 높은 품질의 합성 이미지를 생성하며 주목받고 있다. 그러나 기존의 Diffsuion 기반 VTON 시스템들은 주로 서버 환경에서의 추론을 전제로 하고 있어, 사용자의 개인 이미지가 외부 서버로 전송되는 과정에서 개인정보 유출 문제가 발생할 수 있다. 
   
 ## System Design
-<img width="545" height="257" alt="image" src="https://github.com/user-attachments/assets/ee22ed63-2b00-446e-b40e-73a497244634" />
+ <img width="545" height="257" alt="image" src="https://github.com/user-attachments/assets/ee22ed63-2b00-446e-b40e-73a497244634" />
+
+ - 온디바이스
 
  <img width="645" height="512" alt="image" src="https://github.com/user-attachments/assets/b6f6dcbf-02f2-4e5f-8d5c-f13690aa535c" />
+
+ - 서버 + 온디바이스
 
   - ### System Requirements
     - On-device 환경에서 효율적으로 실행가능한 Encoding 모델
