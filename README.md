@@ -1,9 +1,9 @@
-# 한밭대학교 OOOO학과 ㅁㅁㅁㅁ팀
+# 한밭대학교 인공지능소프트웨어학과 팀
 
 **팀 구성**
 - 20227005 진경은
-- 20221064 신은호
-- 202210
+- 20221055 신은호
+- 20221063 이유진
 
 ## <u>Teamate</u> Project Background
 - ### 필요성
@@ -13,11 +13,7 @@
   - 최근 Diffusion 모델 기반의 VITON 시스템들이 높은 품질의 합성 이미지를 생성하며 주목받고 있다. 그러나 기존의 Diffsuion 기반 VTON 시스템들은 주로 서버 환경에서의 추론을 전제로 하고 있어, 사용자의 개인 이미지가 외부 서버로 전송되는 과정에서 개인정보 유출 문제가 발생할 수 있다. 
   
 ## System Design
-
- <img width="549" height="456" alt="image" src="https://github.com/user-attachments/assets/116d57bb-9210-4051-bc22-e5963c2298b2" />
-
 <img width="545" height="257" alt="image" src="https://github.com/user-attachments/assets/ee22ed63-2b00-446e-b40e-73a497244634" />
-
 
  <img width="645" height="512" alt="image" src="https://github.com/user-attachments/assets/b6f6dcbf-02f2-4e5f-8d5c-f13690aa535c" />
 
@@ -25,16 +21,21 @@
     - On-device 환경에서 효율적으로 실행가능한 Encoding 모델
     - On-device 환경에서 효율적으로 실행가능한 Diffusion 모델
     - 입력 조건 생성을 위한 Segementation 모델
+    - 사용자 만족도를 위한 빠른 추론시간
     
 ## Case Study
   - ### Description
   Viton: An image-based virtual try-on network CVPR 2018
+  
   CatVTON: Concatenation is all you need for Virtual Try-On with diffusion models ICLR 2025
+  
   MobileDiffusion: Instant Text-to-Image Generation on Mobile Devices google 2023
   
 ## Conclusion
-  - ### OOO
-  - ### OOO
+  <img width="549" height="456" alt="image" src="https://github.com/user-attachments/assets/116d57bb-9210-4051-bc22-e5963c2298b2" />
+  
+  - ### 본 프로젝트는 기존 서버 기반 VTON 시스템의 개인정보 유출 문제와 높은 추론 시간 문제를 동시에 해결하기 위해, CatVTON 모델을 On-device 환경에 최적화한 비대면 의류 착용 시스템을 구현하였다.
+Jetson Orin Nano에서는 FP32 → BFP16 변환 및 DPM++ 스케줄러 적용을 통해 추론 시간 단축(30초 → 11초)을 달성하였으며, 모바일 환경인 Galaxy S25(Adreno 830)에서도 Executorch를 활용해 추론이 가능함을 확인하였다. 본 시스템은 개인 이미지 암호화 및 On-device 추론 수행으로 개인정보 유출 위험을 최소화하고, 경량화된 Diffusion 기반 VTON 모델을 통해 고품질의 가상 착용 이미지를 빠르게 생성하며, Jetson 및 모바일 디바이스 환경에서도 실시간 응용이 가능한 수준으로 최적화했다.
   
 ## Project Outcome
-- ### 20XX 년 OO학술대회 
+- 
