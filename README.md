@@ -13,6 +13,9 @@
   - 최근 Diffusion 모델 기반의 VITON 시스템들이 높은 품질의 합성 이미지를 생성하며 주목받고 있다. 그러나 기존의 Diffsuion 기반 VTON 시스템들은 주로 서버 환경에서의 추론을 전제로 하고 있어, 사용자의 개인 이미지가 외부 서버로 전송되는 과정에서 개인정보 유출 문제가 발생할 수 있다. 
   
 ## System Design
+
+ <img width="549" height="456" alt="image" src="https://github.com/user-attachments/assets/116d57bb-9210-4051-bc22-e5963c2298b2" />
+
  <img width="1110" height="477" alt="image" src="https://github.com/user-attachments/assets/a39b1255-b1b1-4c6f-b216-fe7dcc83354d" />
 
 
