@@ -1,0 +1,25 @@
+pip install \
+  torch==2.4.0 \
+  torchvision==0.19.0 \
+  torchaudio==2.4.0 \
+  --index-url https://download.pytorch.org/whl/cu121
+
+pip install \
+  diffusers==0.30.0 \
+  transformers==4.44.0 \
+  accelerate==0.33.0 \
+  segmentation-models-pytorch==0.5.0 \
+  huggingface-hub==0.24.5 \
+  numpy==1.26.4 \
+  pillow==10.4.0 \
+  opencv-python-headless==4.10.0.84 \
+  matplotlib==3.9.2 \
+  tqdm==4.66.5 \
+  packaging==24.1
+
+# 프론트 실행
+
+
+# 서버 실행
+ npm install express @types/express typescript ts-node tsx
+ npx ts-node server/index.ts
